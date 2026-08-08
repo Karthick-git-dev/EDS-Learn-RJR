@@ -26,8 +26,8 @@
   object-fit: cover;
 }
 
-//**variants**//
-//***card borders rounded sm****//
+/**variants**/
+/***card borders rounded sm****/
 .cards.corners-sm > ul > li,
 .cards.corners-sm > ul > li img {
   border-radius: 15px;
