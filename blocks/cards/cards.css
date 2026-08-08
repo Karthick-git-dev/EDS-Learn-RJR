@@ -26,7 +26,7 @@
   object-fit: cover;
 }
 
-//variants
+//**variants**//
 //***card borders rounded sm****//
 .cards.corners-sm > ul > li,
 .cards.corners-sm > ul > li img
