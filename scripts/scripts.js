@@ -215,3 +215,10 @@ async function loadPage() {
 }
 
 loadPage();
+
+// preview code for devices//
+(async function loadDa() {
+  if (!new URL(window.location.href).searchParams.get('dapreview')) return;
+  import('https://da.live/scripts/dapreview.js').then(({ default: daPreview }) => daPreview(loadPage));
+}());
+
