@@ -28,8 +28,11 @@
 
 /**variants**/
 /***card borders rounded sm****/
-.cards.corners-sm > ul > li,
-.cards.corners-sm > ul > li img {
+.cards.corners-sm > ul > li {
   border-radius: 15px;
+}
+.cards.corners-sm > ul > li img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
