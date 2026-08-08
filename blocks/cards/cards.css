@@ -27,7 +27,7 @@
 }
 
 /**variants**/
-/***card borders rounded sm****/
+/*card borders rounded sm****/
 .cards.corners-sm > ul > li {
   border-radius: 15px;
 }
@@ -37,10 +37,10 @@
 }
 
 /***card borders rounded md****/
-.cards.corners-sm > ul > li {
+.cards.corners-md > ul > li {
   border-radius: 60px;
 }
-.cards.corners-sm > ul > li img {
+.cards.corners-md > ul > li img {
   border-top-right-radius: 60px;
   border-top-left-radius: 60px;
 }
